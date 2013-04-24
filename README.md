@@ -1,6 +1,13 @@
 # DAY 3! of introduction to data visualization
 
+### Getting Started:
+> **As usual:**
+> - Fork this repository
+> - Rename the url in the description of your fork of the repository.
+> - Check out the below resources, and complete the workshop section.
 
+
+### Resources:
 **In Chrome, install the JSONView extension:**  
 https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc  
 
