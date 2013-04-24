@@ -33,6 +33,6 @@ request(url, query, function(data){
       }
     ]
   }
-  var ctx = document.getElementById("myChart").getContext("2d");
+  var ctx = document.getElementById("twitter").getContext("2d");
   var radarChart = new Chart(ctx).Radar(data);
 });
