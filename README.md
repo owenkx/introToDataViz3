@@ -20,13 +20,13 @@ http://data.seattle.gov/resource/3k2p-39jp.json
 You can also browse the police feed data:  
 https://data.seattle.gov/Public-Safety/Seattle-Police-Department-911-Incident-Response/3k2p-39jp
 
-**WA population of counties:**
+**WA population of counties:**  
 wa-population-data.json
 
 **chart.js documentation:**  
 http://www.chartjs.org/  
 
-**jquery ajax documentation:**
+**jquery ajax documentation:**  
 http://api.jquery.com/jQuery.ajax/
 
 ### query strings:
