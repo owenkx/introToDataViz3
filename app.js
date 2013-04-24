@@ -20,6 +20,7 @@ request(url, query, function(data){
 
   $.each(data, function(key, value){
     labels.push(data[key]['text']);
+    console.log("it works");
     values.push(parseInt(data[key]['from_user_id']))
   });
 
