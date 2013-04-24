@@ -19,6 +19,8 @@ wa-population-data.json
 **chart.js documentation:**  
 http://www.chartjs.org/  
 
+**jquery ajax documentation:**
+http://api.jquery.com/jQuery.ajax/
 
 ### query strings:
 ```
@@ -31,7 +33,7 @@ var request = $.ajax({
   type: "GET",
   url: "http://example.com",
   dataType: "jsonp",
-  data: { q: "pizza" }
+  data: { q: "pizza" } // jquery turns this object into a query string
 });
 
 request.done(function(response){
@@ -95,4 +97,5 @@ request(url, query, function(data){
 - Which chart will work best for each data set?
 - Are there ways to show relation information between the three data sources?
 - What's the best way to arrange the information on the page? Do you need to add text to make things more clear?
+- How can the request function be improved?
 - How can you break down the script into smaller functions?
