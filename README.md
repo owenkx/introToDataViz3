@@ -13,6 +13,9 @@ http://data.seattle.gov/resource/3k2p-39jp.json
 You can also browse the police feed data:  
 https://data.seattle.gov/Public-Safety/Seattle-Police-Department-911-Incident-Response/3k2p-39jp
 
+**WA population of counties:**
+wa-population-data.json
+
 **chart.js documentation:**  
 http://www.chartjs.org/  
 
@@ -85,5 +88,11 @@ request(url, query, function(data){
 });
 ```
 
-## Use this function to pull data from the Twitter Search API, and the Seattle Police feed.
-### Create two separate charts that show the data from those sources
+## Use this function to pull data from the Twitter Search API, the Seattle Police feed, and the WA population json file in this repository.
+### Create three separate charts that show the data from those sources
+
+### Things to think about:
+- Which chart will work best for each data set?
+- Are there ways to show relation information between the three data sources?
+- What's the best way to arrange the information on the page? Do you need to add text to make things more clear?
+- How can you break down the script into smaller functions?
